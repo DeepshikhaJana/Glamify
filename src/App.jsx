@@ -1,9 +1,33 @@
 import { useState } from 'react'
 import './App.css'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import Collection from './pages/Collection';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Product from './pages/Product';
+import PlaceOrder from './pages/PlaceOrder';
+import Login from './pages/Login';
+import Orders from './pages/Orders';
+import Cart from './pages/Cart';
 
 function App() {
  
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/collection" element={<Collection/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/product" element={<Product/>} />
+        <Route path="/placeOrder" element={<PlaceOrder />} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/orders" element={<Orders />} />
+        <Route path="/cart" element={<Cart/>} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App
