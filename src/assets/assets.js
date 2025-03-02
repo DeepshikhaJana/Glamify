@@ -55,7 +55,7 @@ import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
 
 
-import Glamify_logo from './Glamify_logo.png'
+import logo from './logo.png'
 import hero from './hero.png'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
@@ -76,7 +76,7 @@ import cross_icon from './cross_icon.png'
 
 export const assets = {
     logo,
-    hero_img,
+    hero,
     cart_icon,
     dropdown_icon,
     exchange_icon,
