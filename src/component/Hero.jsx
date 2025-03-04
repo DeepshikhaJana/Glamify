@@ -10,7 +10,7 @@ function Hero() {
             <p className="w-8 md:w-11 h-[2px] bg-[#414141]"></p>
             <p className="font-medium text-sm md:text-base">OUR BESTSELLERS</p>
           </div>
-          <h1 className="text-3xl sm:py-3 lg:text-5xl leading:relaxed">
+          <h1 className="prata-regular text-3xl sm:py-3 lg:text-5xl leading:relaxed">
             Latest Arrivals
           </h1>
           <div className="flex items-center gap-2">
@@ -19,8 +19,12 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className='flex justify-end'>
-        <img src={assets.hero} className='w-full sm::w-1/2 bg-[#cb989d]' alt="" />
+      <div className="flex justify-end w-full h-[560px] sm:w-1/2">
+        <img
+          src={assets.hero}
+          className="w-[450px] h-full  bg-[#cb989d]"
+          alt=""
+        />
       </div>
     </div>
   );
