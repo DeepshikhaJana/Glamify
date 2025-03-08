@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import Orders from './pages/Orders';
 import Cart from './pages/Cart';
 import Navbar from './component/Navbar';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/orders" element={<Orders />} />
         <Route path="/cart" element={<Cart/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

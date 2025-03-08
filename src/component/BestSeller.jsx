@@ -1,6 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react'
 import Title from './Title';
 import { ShopContext } from '../context/ShopContext';
+import ProductItem from './ProductItem';
+
 
 const BestSeller = () => {
 
@@ -16,12 +18,18 @@ const BestSeller = () => {
         <div className='text-center text-3xl py-8'>
             <Title text1={'BEST'} text2={'SELLERS'}/>
             <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium recusandae accusamus beatae esse molestiae inventore ut illum molestias illo, at, expedita quis enim. Ipsam id deserunt fugiat laudantium eum.
-            Voluptatum architecto error ratione!
+            Lorem ipsum dolor sit amet consectetur adipisicing. Natus praesentium molestiae inventorpsam laudantium eum. ratione!
             </p>
+        </div>
+        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6'>
+          {
+            bestSeller.map((item, index)=>{
+              <ProductItem key={index} id={item._id} name={item.name} image={item.image} price={item.price}/>
+            })
+          }
         </div>
     </div>
   )
 }
 
-export default BestSeller
+export default BestSeller; 
