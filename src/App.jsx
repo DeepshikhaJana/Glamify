@@ -22,12 +22,13 @@ function App() {
       <Navbar/>
       <SearchBar/>
       
+      
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/collection" element={<Collection/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/product" element={<Product/>} />
+        <Route path="/product/:productId" element={<Product/>} />
         <Route path="/placeOrder" element={<PlaceOrder />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/orders" element={<Orders />} />
