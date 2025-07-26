@@ -21,7 +21,7 @@ function Contact() {
             890933 Williams Station <br /> Noore 233, Washington, USA
           </p>
           <p className="text-gray-500">
-            Tel: (115) 344-0198 <br /> Email: admin@forever.com
+            Tel: (115) 344-0198 <br /> Email: admin@glamify.com
           </p>
           <p className="font-semibold text-xl text-gray-600">
             Careers at Glamify
