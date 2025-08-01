@@ -1,5 +1,5 @@
-import React from 'react'
-import Title from '../component/Title'
+import React from 'react';
+import Title from '../component/Title';
 import { assets } from '../assets/assets';
 
 function About() {
