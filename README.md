@@ -1,5 +1,5 @@
 
-# Glamify
+# 🛒 Glamify
 
 A comprehensive eCommerce solution built on the MERN stack (MongoDB, Express, React, Node.js), featuring secure user authentication, efficient product management, a streamlined shopping cart and order system, and a fully protected admin dashboard
 
@@ -9,7 +9,7 @@ Link - https://glamify-smoky.vercel.app/
 
 
 
-## Features
+## ✨ Features
 
 Admin Panel:
 - Secure role-based login for administrator
@@ -27,7 +27,7 @@ User Side:
 
 
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 | Technology             | Description                                                                |
 | ----------------- | ------------------------------------------------------------------ |
@@ -40,7 +40,7 @@ User Side:
 | Axios | HTTP client for API calls|
 
 
-## Screenshots
+## 📸 Screenshots
 
 ![Home](https://github.com/DeepshikhaJana/Glamify/blob/b7b095bb70136265bcd308216589e9de424a27b9/Screenshot%201.png)
 
